@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 280" width="1000" height="280" role="img" aria-labelledby="bt bd">
+  <title id="bt">SekaiGemPlugins</title>
+  <desc id="bd">SekaiGemPlugins banner with a slowly floating teal gem</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#061214"/>
+      <stop offset="1" stop-color="#0e2427"/>
+    </linearGradient>
+    <linearGradient id="ttl" x1="0" x2="1">
+      <stop offset="0" stop-color="#eafff8"/>
+      <stop offset="1" stop-color="#6ff0c8"/>
+    </linearGradient>
+    <linearGradient id="f1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7dffd9"/><stop offset="1" stop-color="#2dd4a8"/></linearGradient>
+    <linearGradient id="f2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2dd4a8"/><stop offset="1" stop-color="#14917f"/></linearGradient>
+    <linearGradient id="f3" x1="1" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1fae91"/><stop offset="1" stop-color="#0d6a5d"/></linearGradient>
+    <linearGradient id="f4" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#17a58a"/><stop offset="1" stop-color="#0a4a43"/></linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#2dd4a8" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#2dd4a8" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="lattice" width="46" height="46" patternUnits="userSpaceOnUse" patternTransform="rotate(30)">
+      <path d="M0 0H46M0 0V46" stroke="#12302f" stroke-width="1" fill="none"/>
+    </pattern>
+    <clipPath id="gem"><polygon points="740,115 780,70 840,70 880,115 810,215"/></clipPath>
+  </defs>
+
+  <rect width="1000" height="280" fill="url(#bg)"/>
+  <rect width="1000" height="280" fill="url(#lattice)" opacity=".6"/>
+
+  <ellipse cx="810" cy="244" rx="95" ry="12" fill="url(#glow)">
+    <animate attributeName="opacity" values=".5;1;.5" dur="5s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 -9;0 0" keyTimes="0;.5;1" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1" dur="5s" repeatCount="indefinite"/>
+    <polygon points="780,70 840,70 850,115 770,115" fill="url(#f1)"/>
+    <polygon points="740,115 780,70 770,115" fill="url(#f2)"/>
+    <polygon points="840,70 880,115 850,115" fill="url(#f3)"/>
+    <polygon points="740,115 770,115 810,215" fill="url(#f3)"/>
+    <polygon points="770,115 850,115 810,215" fill="url(#f4)"/>
+    <polygon points="850,115 880,115 810,215" fill="url(#f2)" opacity=".85"/>
+    <g stroke="#bffff0" stroke-opacity=".45" stroke-width="1" fill="none" stroke-linejoin="round">
+      <polygon points="740,115 780,70 840,70 880,115 810,215"/>
+      <path d="M770 115L780 70M850 115L840 70M740 115H880M770 115L810 215M850 115L810 215"/>
+    </g>
+    <g clip-path="url(#gem)">
+      <polygon points="690,60 725,60 695,230 660,230" fill="#fff" opacity=".3">
+        <animateTransform attributeName="transform" type="translate" values="0 0;240 0;240 0" keyTimes="0;.4;1" dur="6s" repeatCount="indefinite"/>
+      </polygon>
+    </g>
+  </g>
+
+  <g fill="#bffff0">
+    <path d="M700 80l2 5 5 2-5 2-2 5-2-5-5-2 5-2z"><animate attributeName="opacity" values="0;1;0" dur="3.2s" repeatCount="indefinite"/></path>
+    <path d="M915 70l2 5 5 2-5 2-2 5-2-5-5-2 5-2z"><animate attributeName="opacity" values="0;1;0" dur="4s" begin="1s" repeatCount="indefinite"/></path>
+    <path d="M925 175l2 5 5 2-5 2-2 5-2-5-5-2 5-2z"><animate attributeName="opacity" values="0;1;0" dur="3.6s" begin="2s" repeatCount="indefinite"/></path>
+    <path d="M690 195l2 5 5 2-5 2-2 5-2-5-5-2 5-2z"><animate attributeName="opacity" values="0;1;0" dur="4.4s" begin=".5s" repeatCount="indefinite"/></path>
+  </g>
+
+  <g font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">
+    <text x="62" y="100" font-size="13" font-weight="600" letter-spacing="4" fill="#2dd4a8">RPG MAKER MZ  ·  PLUGINS</text>
+    <text x="60" y="162" font-size="58" font-weight="700" fill="url(#ttl)">SekaiGemPlugins</text>
+    <text x="62" y="199" font-size="18" fill="#8fb7b2">Standalone plugins, cut and polished in JavaScript.</text>
+    <rect x="62" y="220" width="72" height="3" rx="1.5" fill="#2dd4a8"/>
+  </g>
+</svg>

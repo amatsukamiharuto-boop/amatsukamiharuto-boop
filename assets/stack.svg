@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 182" width="800" height="182" role="img" aria-label="Tech stack">
+<title>Tech stack</title>
+<g font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">
+<rect x=".5" y=".5" width="799" height="181" rx="14" fill="#0b1517" stroke="#1e3d3b"/>
+<text x="30" y="34" font-size="12" font-weight="600" letter-spacing="2" fill="#6f9a96">PLUGIN CRAFT</text>
+<g transform="translate(30 46)"><rect width="171" height="34" rx="10" fill="#10262a" stroke="#1f4a47"/><path d="M16 11l5 6-5 6-5-6z" fill="#7dffd9"/><text x="30" y="22" font-size="13" fill="#d5f3ee">RPG Maker MZ 1.8.1</text></g>
+<g transform="translate(213 46)"><rect width="112" height="34" rx="10" fill="#10262a" stroke="#1f4a47"/><path d="M16 11l5 6-5 6-5-6z" fill="#2dd4a8"/><text x="30" y="22" font-size="13" fill="#d5f3ee">JavaScript</text></g>
+<g transform="translate(337 46)"><rect width="90" height="34" rx="10" fill="#10262a" stroke="#1f4a47"/><path d="M16 11l5 6-5 6-5-6z" fill="#5fd3e8"/><text x="30" y="22" font-size="13" fill="#d5f3ee">Node.js</text></g>
+<g transform="translate(439 46)"><rect width="90" height="34" rx="10" fill="#10262a" stroke="#1f4a47"/><path d="M16 11l5 6-5 6-5-6z" fill="#9be8b8"/><text x="30" y="22" font-size="13" fill="#d5f3ee">VS Code</text></g>
+<text x="30" y="120" font-size="12" font-weight="600" letter-spacing="2" fill="#6f9a96">ALSO IN MY REPOS</text>
+<g transform="translate(30 132)"><rect width="68" height="34" rx="10" fill="#10262a" stroke="#1f4a47"/><path d="M16 11l5 6-5 6-5-6z" fill="#7dffd9"/><text x="30" y="22" font-size="13" fill="#d5f3ee">Dart</text></g>
+<g transform="translate(110 132)"><rect width="82" height="34" rx="10" fill="#10262a" stroke="#1f4a47"/><path d="M16 11l5 6-5 6-5-6z" fill="#2dd4a8"/><text x="30" y="22" font-size="13" fill="#d5f3ee">Kotlin</text></g>
+<g transform="translate(204 132)"><rect width="112" height="34" rx="10" fill="#10262a" stroke="#1f4a47"/><path d="M16 11l5 6-5 6-5-6z" fill="#5fd3e8"/><text x="30" y="22" font-size="13" fill="#d5f3ee">TypeScript</text></g>
+<g transform="translate(328 132)"><rect width="68" height="34" rx="10" fill="#10262a" stroke="#1f4a47"/><path d="M16 11l5 6-5 6-5-6z" fill="#9be8b8"/><text x="30" y="22" font-size="13" fill="#d5f3ee">HTML</text></g>
+</g>
+</svg>
