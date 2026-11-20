@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 150" width="390" height="150" role="img" aria-label="SGP_QuestManager: Quest tracking for your RPG Maker MZ project. v1.0.0  ·  Released">
-<title>SGP_QuestManager: Quest tracking for your RPG Maker MZ project. v1.0.0  ·  Released</title>
-<g font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">
-<rect x=".5" y=".5" width="389" height="149" rx="12" fill="#0b1517" stroke="#1e3d3b"/>
-<path transform="translate(20 20) scale(1)" d="M12 0l12 9-12 15L0 9z" fill="#2dd4a8"/><path transform="translate(20 20) scale(1)" d="M0 9h24M12 0l-4 9 4 15M12 0l4 9-4 15" stroke="#bffff0" stroke-opacity=".5" fill="none"/><text x="56" y="39" font-size="17" font-weight="700" fill="#eafff8">SGP_QuestManager</text><text x="20" y="76" font-size="13" fill="#a9cbc6">Quest tracking for your</text><text x="20" y="94" font-size="13" fill="#a9cbc6">RPG Maker MZ project.</text><rect x="20" y="108" width="165" height="24" rx="12" fill="#2dd4a8"/><text x="34" y="124" font-size="12" font-weight="700" fill="#06211c">v1.0.0  ·  Released</text>
-</g>
-</svg>

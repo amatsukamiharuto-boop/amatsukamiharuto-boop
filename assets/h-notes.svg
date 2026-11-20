@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 48" width="800" height="48" role="img" aria-label="Field notes">
-<title>Field notes</title>
-<g font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">
-<rect x=".5" y=".5" width="799" height="47" rx="12" fill="#0b1517" stroke="#1e3d3b"/>
-<defs><linearGradient id="l" x1="0" x2="1"><stop offset="0" stop-color="#2dd4a8" stop-opacity=".7"/><stop offset="1" stop-color="#2dd4a8" stop-opacity="0"/></linearGradient></defs><path transform="translate(18 12) scale(0.9)" d="M12 0l12 9-12 15L0 9z" fill="#2dd4a8"/><path transform="translate(18 12) scale(0.9)" d="M0 9h24M12 0l-4 9 4 15M12 0l4 9-4 15" stroke="#bffff0" stroke-opacity=".5" fill="none"/><text x="54" y="31" font-size="20" font-weight="700" fill="#eafff8">Field notes</text><rect x="189" y="23" width="591" height="2" fill="url(#l)"/>
-</g>
-</svg>

@@ -1,66 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 280" width="1000" height="280" role="img" aria-labelledby="bt bd" xmlns:c2pa="http://c2pa.org/manifest">
-  <title id="bt">SekaiGemPlugins</title>
-  <desc id="bd">SekaiGemPlugins banner with a slowly floating teal gem</desc>
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#061214"/>
-      <stop offset="1" stop-color="#0e2427"/>
-    </linearGradient>
-    <linearGradient id="ttl" x1="0" x2="1">
-      <stop offset="0" stop-color="#eafff8"/>
-      <stop offset="1" stop-color="#6ff0c8"/>
-    </linearGradient>
-    <linearGradient id="f1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7dffd9"/><stop offset="1" stop-color="#2dd4a8"/></linearGradient>
-    <linearGradient id="f2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2dd4a8"/><stop offset="1" stop-color="#14917f"/></linearGradient>
-    <linearGradient id="f3" x1="1" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1fae91"/><stop offset="1" stop-color="#0d6a5d"/></linearGradient>
-    <linearGradient id="f4" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#17a58a"/><stop offset="1" stop-color="#0a4a43"/></linearGradient>
-    <radialGradient id="glow">
-      <stop offset="0" stop-color="#2dd4a8" stop-opacity=".55"/>
-      <stop offset="1" stop-color="#2dd4a8" stop-opacity="0"/>
-    </radialGradient>
-    <pattern id="lattice" width="46" height="46" patternUnits="userSpaceOnUse" patternTransform="rotate(30)">
-      <path d="M0 0H46M0 0V46" stroke="#12302f" stroke-width="1" fill="none"/>
-    </pattern>
-    <clipPath id="gem"><polygon points="740,115 780,70 840,70 880,115 810,215"/></clipPath>
-  </defs>
-
-  <rect width="1000" height="280" fill="url(#bg)"/>
-  <rect width="1000" height="280" fill="url(#lattice)" opacity=".6"/>
-
-  <ellipse cx="810" cy="244" rx="95" ry="12" fill="url(#glow)">
-    <animate attributeName="opacity" values=".5;1;.5" dur="5s" repeatCount="indefinite"/>
-  </ellipse>
-
-  <g>
-    <animateTransform attributeName="transform" type="translate" values="0 0;0 -9;0 0" keyTimes="0;.5;1" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1" dur="5s" repeatCount="indefinite"/>
-    <polygon points="780,70 840,70 850,115 770,115" fill="url(#f1)"/>
-    <polygon points="740,115 780,70 770,115" fill="url(#f2)"/>
-    <polygon points="840,70 880,115 850,115" fill="url(#f3)"/>
-    <polygon points="740,115 770,115 810,215" fill="url(#f3)"/>
-    <polygon points="770,115 850,115 810,215" fill="url(#f4)"/>
-    <polygon points="850,115 880,115 810,215" fill="url(#f2)" opacity=".85"/>
-    <g stroke="#bffff0" stroke-opacity=".45" stroke-width="1" fill="none" stroke-linejoin="round">
-      <polygon points="740,115 780,70 840,70 880,115 810,215"/>
-      <path d="M770 115L780 70M850 115L840 70M740 115H880M770 115L810 215M850 115L810 215"/>
-    </g>
-    <g clip-path="url(#gem)">
-      <polygon points="690,60 725,60 695,230 660,230" fill="#fff" opacity=".3">
-        <animateTransform attributeName="transform" type="translate" values="0 0;240 0;240 0" keyTimes="0;.4;1" dur="6s" repeatCount="indefinite"/>
-      </polygon>
-    </g>
-  </g>
-
-  <g fill="#bffff0">
-    <path d="M700 80l2 5 5 2-5 2-2 5-2-5-5-2 5-2z"><animate attributeName="opacity" values="0;1;0" dur="3.2s" repeatCount="indefinite"/></path>
-    <path d="M915 70l2 5 5 2-5 2-2 5-2-5-5-2 5-2z"><animate attributeName="opacity" values="0;1;0" dur="4s" begin="1s" repeatCount="indefinite"/></path>
-    <path d="M925 175l2 5 5 2-5 2-2 5-2-5-5-2 5-2z"><animate attributeName="opacity" values="0;1;0" dur="3.6s" begin="2s" repeatCount="indefinite"/></path>
-    <path d="M690 195l2 5 5 2-5 2-2 5-2-5-5-2 5-2z"><animate attributeName="opacity" values="0;1;0" dur="4.4s" begin=".5s" repeatCount="indefinite"/></path>
-  </g>
-
-  <g font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">
-    <text x="62" y="100" font-size="13" font-weight="600" letter-spacing="4" fill="#2dd4a8">RPG MAKER MZ  ·  PLUGINS</text>
-    <text x="60" y="162" font-size="58" font-weight="700" fill="url(#ttl)">SekaiGemPlugins</text>
-    <text x="62" y="199" font-size="18" fill="#8fb7b2">Standalone plugins, cut and polished in JavaScript.</text>
-    <rect x="62" y="220" width="72" height="3" rx="1.5" fill="#2dd4a8"/>
-  </g>
-<metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYToyMmNhNmUwMy0yMDNhLTQwNDYtYjYzZS1iYjU5ZWM5OGI2ZmQAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaMBqdp8XwwhJ7yjFrmZ1pm8AAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDo2OTY2MDkxYy1hNjVjLTQ2NjAtODZiMi1jNzNjMmE3ZjFlNjVscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNon+ZmnXkor6Dl99KCZrw0RwAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggftZ6Pk91w5RvcBetDX7C6wzlTskNGvqn1LvAKHNs0B6kZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaAGWrrAIjV1ILTY9ikz4okcAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYICyfgrbi531igTzq3GUCFU1B1Zd+yrX2bIldrD2ggxywZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GRDaZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjIyY2E2ZTAzLTIwM2EtNDA0Ni1iNjNlLWJiNTllYzk4YjZmZC9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjMzZmNjNzZjLTYzODMtNDdiZC1hZGIyLTM2MTkxZGYzZGNmY3JjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCB+1no+T3XDlG9wF60NfsLrDOVOyQ0a+qfUu8Aoc2zQHqJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFgg9v4Ioo8h3+VWSLk5qEPiRhO12GzowxjQvy4tM2OhHuGiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggBf5QLLPWNQ9MQGLkUgNBF9R+1apARPtyiM0dmH8tkzJ0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQO+MqVVoYF3Lt9848usdTc95z68s+HGoCsM2UJaEEFuPjhQW1HYjrkdnivVVJIyOvw+RNcGDT7YEmlOGIU679Dc=</c2pa:manifest></metadata></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="1000" height="300" role="img" aria-labelledby="bt bd">
+<title id="bt">Amatsukami Haruto</title>
+<desc id="bd">Profile banner for Amatsukami Haruto with a slowly turning golden sun</desc>
+<defs>
+<linearGradient id="sky" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#090d18"/><stop offset="1" stop-color="#151c33"/></linearGradient>
+<linearGradient id="name" x1="0" x2="1"><stop offset="0" stop-color="#fff1c9"/><stop offset="1" stop-color="#f5b942"/></linearGradient>
+<radialGradient id="disc" cx=".4" cy=".35" r=".8"><stop offset="0" stop-color="#ffe9a8"/><stop offset=".55" stop-color="#f5b942"/><stop offset="1" stop-color="#b87a14"/></radialGradient>
+<radialGradient id="halo"><stop offset="0" stop-color="#f5b942" stop-opacity=".35"/><stop offset="1" stop-color="#f5b942" stop-opacity="0"/></radialGradient>
+<clipPath id="c0"><rect x="64" y="176" width="384" height="40"><animate attributeName="width" dur="12s" repeatCount="indefinite" keyTimes="0;0.16;1" values="0;384;384"/></rect></clipPath><clipPath id="c1"><rect x="64" y="176" width="0" height="40"><animate attributeName="width" dur="12s" repeatCount="indefinite" keyTimes="0;0.3333;0.4933;1" values="0;0;418;418"/></rect></clipPath><clipPath id="c2"><rect x="64" y="176" width="0" height="40"><animate attributeName="width" dur="12s" repeatCount="indefinite" keyTimes="0;0.6667;0.8267;1" values="0;0;282;282"/></rect></clipPath>
+</defs>
+<rect width="1000" height="300" fill="url(#sky)"/>
+<circle cx="361" cy="262" r="1" fill="#ffe9b0" opacity=".2"><animate attributeName="opacity" values=".15;.9;.15" dur="3.5s" begin="0.1s" repeatCount="indefinite"/></circle><circle cx="870" cy="157" r="1" fill="#ffe9b0" opacity=".2"><animate attributeName="opacity" values=".15;.9;.15" dur="3.4s" begin="0.2s" repeatCount="indefinite"/></circle><circle cx="549" cy="74" r="1" fill="#ffe9b0" opacity=".2"><animate attributeName="opacity" values=".15;.9;.15" dur="2.7s" begin="1.3s" repeatCount="indefinite"/></circle><circle cx="276" cy="43" r="1.6" fill="#ffe9b0" opacity=".2"><animate attributeName="opacity" values=".15;.9;.15" dur="3.6s" begin="2.5s" repeatCount="indefinite"/></circle><circle cx="156" cy="262" r="1" fill="#ffe9b0" opacity=".2"><animate attributeName="opacity" values=".15;.9;.15" dur="4.1s" begin="1.7s" repeatCount="indefinite"/></circle><circle cx="93" cy="167" r="1.6" fill="#ffe9b0" opacity=".2"><animate attributeName="opacity" values=".15;.9;.15" dur="3.5s" begin="2.9s" repeatCount="indefinite"/></circle><circle cx="77" cy="162" r="1" fill="#ffe9b0" opacity=".2"><animate attributeName="opacity" values=".15;.9;.15" dur="3.2s" begin="0.4s" repeatCount="indefinite"/></circle><circle cx="150" cy="166" r="1.2" fill="#ffe9b0" opacity=".2"><animate attributeName="opacity" values=".15;.9;.15" dur="3.9s" begin="2.0s" repeatCount="indefinite"/></circle><circle cx="135" cy="168" r="1.6" fill="#ffe9b0" opacity=".2"><animate attributeName="opacity" values=".15;.9;.15" dur="4.1s" begin="1.1s" repeatCount="indefinite"/></circle><circle cx="590" cy="202" r="1" fill="#ffe9b0" opacity=".2"><animate attributeName="opacity" values=".15;.9;.15" dur="3.9s" begin="1.9s" repeatCount="indefinite"/></circle><circle cx="538" cy="194" r="1.6" fill="#ffe9b0" opacity=".2"><animate attributeName="opacity" values=".15;.9;.15" dur="3.6s" begin="0.9s" repeatCount="indefinite"/></circle><circle cx="629" cy="256" r="1.2" fill="#ffe9b0" opacity=".2"><animate attributeName="opacity" values=".15;.9;.15" dur="3.4s" begin="0.7s" repeatCount="indefinite"/></circle><circle cx="214" cy="198" r="1" fill="#ffe9b0" opacity=".2"><animate attributeName="opacity" values=".15;.9;.15" dur="2.7s" begin="0.9s" repeatCount="indefinite"/></circle><circle cx="536" cy="244" r="1.2" fill="#ffe9b0" opacity=".2"><animate attributeName="opacity" values=".15;.9;.15" dur="4.3s" begin="0.9s" repeatCount="indefinite"/></circle><circle cx="104" cy="50" r="1.6" fill="#ffe9b0" opacity=".2"><animate attributeName="opacity" values=".15;.9;.15" dur="3.5s" begin="2.3s" repeatCount="indefinite"/></circle><circle cx="185" cy="258" r="1.2" fill="#ffe9b0" opacity=".2"><animate attributeName="opacity" values=".15;.9;.15" dur="3.6s" begin="2.9s" repeatCount="indefinite"/></circle>
+<g fill="none" stroke="#1d2744" stroke-width="10" stroke-linecap="round">
+<path d="M560 232h150"><animateTransform attributeName="transform" type="translate" values="0 0;-40 0;0 0" dur="22s" repeatCount="indefinite"/></path>
+<path d="M600 252h90"><animateTransform attributeName="transform" type="translate" values="0 0;30 0;0 0" dur="18s" repeatCount="indefinite"/></path>
+<path d="M930 70h-70"><animateTransform attributeName="transform" type="translate" values="0 0;-25 0;0 0" dur="20s" repeatCount="indefinite"/></path>
+</g>
+<circle cx="830" cy="150" r="150" fill="url(#halo)"/>
+<g transform="translate(830 150)">
+<g stroke="#f5b942" stroke-opacity=".65" stroke-width="2" stroke-linecap="round">
+<animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="80s" repeatCount="indefinite"/>
+<line x1="92.0" y1="0.0" x2="112.0" y2="0.0"/><line x1="88.9" y1="23.8" x2="100.5" y2="26.9"/><line x1="79.7" y1="46.0" x2="97.0" y2="56.0"/><line x1="65.1" y1="65.1" x2="73.5" y2="73.5"/><line x1="46.0" y1="79.7" x2="56.0" y2="97.0"/><line x1="23.8" y1="88.9" x2="26.9" y2="100.5"/><line x1="0.0" y1="92.0" x2="0.0" y2="112.0"/><line x1="-23.8" y1="88.9" x2="-26.9" y2="100.5"/><line x1="-46.0" y1="79.7" x2="-56.0" y2="97.0"/><line x1="-65.1" y1="65.1" x2="-73.5" y2="73.5"/><line x1="-79.7" y1="46.0" x2="-97.0" y2="56.0"/><line x1="-88.9" y1="23.8" x2="-100.5" y2="26.9"/><line x1="-92.0" y1="0.0" x2="-112.0" y2="0.0"/><line x1="-88.9" y1="-23.8" x2="-100.5" y2="-26.9"/><line x1="-79.7" y1="-46.0" x2="-97.0" y2="-56.0"/><line x1="-65.1" y1="-65.1" x2="-73.5" y2="-73.5"/><line x1="-46.0" y1="-79.7" x2="-56.0" y2="-97.0"/><line x1="-23.8" y1="-88.9" x2="-26.9" y2="-100.5"/><line x1="-0.0" y1="-92.0" x2="-0.0" y2="-112.0"/><line x1="23.8" y1="-88.9" x2="26.9" y2="-100.5"/><line x1="46.0" y1="-79.7" x2="56.0" y2="-97.0"/><line x1="65.1" y1="-65.1" x2="73.5" y2="-73.5"/><line x1="79.7" y1="-46.0" x2="97.0" y2="-56.0"/><line x1="88.9" y1="-23.8" x2="100.5" y2="-26.9"/>
+</g>
+<circle r="80" fill="none" stroke="#f5b942" stroke-opacity=".3"/>
+<circle r="64" fill="url(#disc)"/>
+<circle r="64" fill="none" stroke="#fff1c9" stroke-opacity=".4"/>
+</g>
+<g font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">
+<text x="66" y="92" font-size="14" font-weight="600" letter-spacing="5" fill="#f5b942">HELLO, I'M</text>
+<text x="62" y="152" font-size="60" font-weight="700" fill="url(#name)">Amatsukami Haruto</text>
+</g>
+<text x="64" y="204" font-family="Consolas,'SFMono-Regular','Courier New',monospace" font-size="20" fill="#f5b942" opacity="0">&gt;</text>
+<g clip-path="url(#c0)" opacity="1"><animate attributeName="opacity" dur="12s" repeatCount="indefinite" keyTimes="0;0.005;0.3133;0.3333;1" values="0;1;1;0;0"/><text x="64" y="204" font-family="Consolas,'SFMono-Regular','Courier New',monospace" font-size="20" fill="#e8e2d0">Mobile apps in Flutter and Kotlin</text></g><g clip-path="url(#c1)" opacity="0"><animate attributeName="opacity" dur="12s" repeatCount="indefinite" keyTimes="0;0.3383;0.6467;0.6667;1" values="0;1;1;0;0"/><text x="64" y="204" font-family="Consolas,'SFMono-Regular','Courier New',monospace" font-size="20" fill="#e8e2d0">Websites with Next.js and TypeScript</text></g><g clip-path="url(#c2)" opacity="0"><animate attributeName="opacity" dur="12s" repeatCount="indefinite" keyTimes="0;0.6717;0.98;1.0" values="0;1;1;0"/><text x="64" y="204" font-family="Consolas,'SFMono-Regular','Courier New',monospace" font-size="20" fill="#e8e2d0">Plugins for RPG Maker MZ</text></g>
+<rect x="64" y="236" width="72" height="3" rx="1.5" fill="#f5b942"/>
+</svg>
