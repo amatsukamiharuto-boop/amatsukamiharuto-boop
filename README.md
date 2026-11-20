@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 
 <img src="assets/banner.svg" alt="SekaiGemPlugins - plugins for RPG Maker MZ" width="100%">
 
@@ -51,3 +51,4 @@ Right now I'm focused on lighting and menu systems.
 New gems are cut whenever the next idea sticks. Thanks for stopping by.
 
 </div>
+
